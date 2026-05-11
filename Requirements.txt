@@ -1,0 +1,18 @@
+
+
+
+Setup and Library Imports
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix, classification_report
+
+# Create requirements.txt for your results folder
+with open('requirements.txt', 'w') as f:
+    f.write('pandas\nnumpy\nmatplotlib\nseaborn\nscikit-learn\ntensorflow')
